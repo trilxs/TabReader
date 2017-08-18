@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TabIt</string>
+    <string name="tamlumusic_tabs">Tam Lu Music Tabs</string>
+    <string name="local_tabs">Local tabs</string>
+</resources>

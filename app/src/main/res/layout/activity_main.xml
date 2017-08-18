@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tamlumusic.tabit.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TabIt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.202"
+        app:layout_constraintHorizontal_bias="0.501" />
+    <Button
+        android:id="@+id/tamlumusic_tabs"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/tamlumusic_tabs"
+        android:onClick="VideosButtonClick"
+        tools:layout_editor_absoluteY="171dp"
+        tools:layout_editor_absoluteX="38dp" />
+    <Button
+        android:id="@+id/local_tabs"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/local_tabs"
+        android:onClick="LocalButtonClick"
+        tools:layout_editor_absoluteY="171dp"
+        tools:layout_editor_absoluteX="221dp" />
+</android.support.constraint.ConstraintLayout>
