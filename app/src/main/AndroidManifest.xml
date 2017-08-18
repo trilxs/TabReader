@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Videos" />
-        <activity android:name=".Local"></activity>
+        <activity android:name=".Local" />
+        <activity android:name=".VideoInformation"></activity>
     </application>
 
 </manifest>
