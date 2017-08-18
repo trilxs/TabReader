@@ -11,9 +11,4 @@ public class Local extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_local);
     }
-
-    public void InformationButtonClick() {
-        Intent intent = new Intent(getApplicationContext(), VideoInformation.class);
-        startActivity(intent);
-    }
 }
